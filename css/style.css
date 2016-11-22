@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://localhost:8888/Trumptations/wordpress//wp-content/uploads/2016/11/0620trumppolicies01.png);
+    background-size: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li {
+    font-size: 50px;
+    color: white;
+}
+
+.unslider {
+    padding-top: 40vh!important;
+}
+
+.banner {
+    width: 80%;
+    left: 0; right: 0;
+    margin: auto;
+}
+
+.unslider-nav {
+    display: none;
+}
+
+.unslider-arrow {
+    top: 45vh!important;
+    color: white;
+}
+
+.prev {
+    display: block;
+    height: 100px; width: 100px;
+    text-indent: -9999px;
+    background-image: url(http://localhost:8888/Trumptations/wordpress//wp-content/uploads/2016/11/left-arrow.png);
+    background-size: 100%;
+}
+
+.next {
+    display: block;
+    height: 100px; width: 100px;
+    text-indent: -9999px;
+    background-image: url(http://localhost:8888/Trumptations/wordpress//wp-content/uploads/2016/11/right-arrow.png);
+    background-size: 100%;
+}
+
+.share-buttons {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.fb-share-button {
+    display: inline-block;
+    height: 50px; width: 50px;
+    margin-right: 20px;
+}
+
+
+.fb-xfbml-parse-ignore {
+    display: block;
+    height: 50px; width: 50px;
+    text-indent: 9999px;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-circle-128.png);
+    background-size: 100%;
+}
+
+.twitter-share-button {
+    display: inline-block;
+    height: 50px; width: 50px;
+    text-indent: 9999px;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-circle-128.png);
+    background-size: 100%;
+    margin-right: 200px;
+}
+
+.usp-title {
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.usp-content{
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  width: 60%;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.usp-title{
+  width: 20%;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.usp-input{
+  box-shadow:none;
+  border:0;
+  border: none;
+  color: white;
+  background: transparent;
+  outline:0;
+  border-bottom: 1px solid white;
+
+}
+
+#usp_form{
+  margin-top: 60px;
+}
+
+#user-submitted-post{
+  display: block;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#user-submitted-post {
+  background: white;
+  border-radius: 60px;
+  border: none;
+  font-family: Courier New;
+  color: #f01325;
+  font-size: 31px;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+}
+
+#user-submitted-post:hover {
+  background: white;
+  border: none;
+  text-decoration: none;
+}
+
+#usp-success-message{
+  color: white;
+  display: block;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+}
